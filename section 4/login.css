@@ -1,0 +1,108 @@
+body{
+  background-image: url('images/background.jpg');
+  /* background-attachment: fixed; */
+  height: 1000px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+nav{
+  display: flex;
+}
+img{
+  height: 70px;
+  margin-left: 50px;
+}
+h1{
+  color: bisque;
+  margin-left:30px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
+li{
+  list-style: none;
+  color: rgb(19, 2, 116);
+  margin-right: 40px;
+  cursor: pointer;
+
+}
+.button{
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, green, blue);
+  color: antiquewhite;
+  border: none;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.login{
+  margin-left: 400px;
+  margin-top: 50px;
+  background-color: beige;
+  height: 400px;
+  width: 650px;
+  display: flex;
+  
+}
+.img{
+  height: 390px;
+  width: 300px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+h2{
+  text-align: center;
+  margin-left: 10px;
+  color: rgb(19, 2, 116);
+  box-shadow: 5px 4px 15px rgba(99, 97, 97, 0.6);
+}
+input{
+  height: 30px;
+  width: 210px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  border-style: solid;
+  padding-left: 15px;
+}
+.forget-pass{
+  margin-left: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(19, 2, 116);
+}
+.button2{
+  height: 30px;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 25px;
+  background: linear-gradient(to right, rgb(129, 129, 12), rgb(118, 6, 6));
+  color: white;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 2s;
+
+
+  &:hover{
+    transform: scale(1.2);
+  }
+
+}
+p{
+  margin-left: 40px;
+}
+.Signup{
+  text-decoration: none;
+  color: rgb(19, 2, 116);
+}
