@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <form>
+    <h2>Registration</h2>
+    <div class="row">
+      <div class="margin">
+        <label for="fullname">Full Name</label>
+      <div>
+          <input class="input" id="fullname" type="text" placeholder="Enter Your Name" method="post" required>
+      </div>
+    </div>
+    <div class="margin">
+      <label for="Username">Username</label>
+      <div>
+        <input class="input" id="Username" type="text" placeholder="Enter Your Username" method="post" required>
+      </div>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="margin">
+        <label for="email">Email</label>
+        <div>
+          <input class="input" id="email" type="email" placeholder="Enter Your email" method="post" required>
+        </div>
+      </div>
+      <div class="margin">
+        <label for="phonenumber">Phone Number</label>
+        <div>
+        <input  class="input" id="phonenumber" type="tel" placeholder="Enter Your Number" method="post" required>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="margin">
+        <label for="password">Password</label>
+        <div>
+          <input class="input" id="password" type="password" placeholder="Enter Your Password" method="post" required>
+        </div>
+      </div>
+      <div class="margin">
+        <label for="Confirmpass">Confirm Password</label>
+        <div>
+        <input class="input" id="Confirmpass" type="password" placeholder="Confirm Your asseord" method="post" required>
+        </div>
+      </div>
+    </div>
+      <h3>Gender</h3>
+      <div class="row">
+      <label class="label"><input class="checkbox"  type="radio" name="Male">Male</label>
+      <label class="label"><input class="checkbox" type="radio" name="Female">Female</label>
+      <label class="label"><input class="checkbox" type="radio" name="prefer not to say"> Prefer not to say</label>
+    </div>
+
+    <div>
+      <button>
+        Register
+      </button>
+    </div>
+
+  </form>
+</body>
+</html>
