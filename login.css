@@ -1,0 +1,97 @@
+body{
+  background: linear-gradient(to right, rgb(140, 10, 140), rgb(248, 88, 200));
+}
+form{
+  background-color: white;
+  width: 51vh;
+  height: 71vh;
+  margin-left: 65vh;
+  margin-top: 10vh;
+
+}
+h1{
+  margin-left: 2.5vh;
+  padding-top: 4vh;
+}
+input{
+  width: 40vh;
+  height: 4vh;
+  margin-left: 3vh;
+  cursor: pointer;
+  border: none;
+}
+hr{
+  border: none;
+  height: 3px;
+  background-color: #bb24a5;
+  margin: 10px 20PX;
+}
+a{
+  text-decoration: none;
+}
+.continue{
+  width: 40vh;
+  border: none;
+  background: linear-gradient(to right bottom, rgb(140, 10, 140), rgb(248, 88, 200));
+  margin-left: 5vh;
+  color: white;
+  cursor: pointer;
+  margin-top: 5vh;
+  transition: transform 2s, background 2s;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-weight: bold;
+
+
+  &:hover{
+    transform: scale(1.05);
+    background: linear-gradient(to top left, rgb(238, 53, 207), rgb(239, 18, 77));
+  }
+}
+p{
+  margin-left: 10vh;
+}
+.twitter{
+  background-color: rgb(112, 208, 249);
+  color: white;
+  border: none;
+  width: 40vh;
+  height: 4vh;
+  margin-left: 5vh;
+  cursor: pointer;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  margin-bottom: 5vh;
+  font-weight: bold;
+  transition: 2s;
+
+  &:hover{
+    background-color: rgb(81, 168, 209);
+    transform: scale(1.05);
+  }
+
+}
+.facebook{
+  background-color: rgb(50, 50, 126);
+  color: white;
+  border: none;
+  width: 40vh;
+  height: 4vh;
+  margin-left: 5vh;
+  cursor: pointer;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  margin-bottom: 5vh;
+  font-weight: bold;
+  transition: 2s;
+
+  &:hover{
+    background-color: rgb(6, 6, 85);
+    transform: scale(1.05);
+  }
+
+}
+i{
+  margin-right: 6px;
+  font-size: 18px;
+}
